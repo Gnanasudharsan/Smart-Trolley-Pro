@@ -61,6 +61,20 @@ This is ready to be added to your GitHub README. It ensures all steps are clear 
 
 Ensure the RFID module and Wi-Fi hotspot are configured.
 
+## 📥 Download TensorFlow Lite Model
+
+The `detect.tflite` model used in this project is based on the SSD MobileNet V1 model. You can download it from Kaggle using the following steps:
+
+1. Visit the [Kaggle SSD MobileNet V1 Model](https://www.kaggle.com/models/tensorflow/ssd-mobilenet-v1) page.
+2. Sign in to your Kaggle account (or create one if you don’t have one).
+3. Click on **Download** to get the model files.
+4. Extract the downloaded files and locate the `detect.tflite`.
+5. Place the `detect.tflite` file in the `models/` folder of this repository.
+
+Alternatively, use the Kaggle API to download the dataset programmatically:
+```bash
+kaggle datasets download -d tensorflow/ssd-mobilenet-v1
+
 📊 Results
 	•	Real-time Tracking: The trolley reliably follows customers within a defined RSSI range.
 	•	Instant Billing: RFID tags are read seamlessly, and the total is displayed via GUI.
