@@ -48,14 +48,14 @@ Here’s the single markdown text:
    ```bash
    pip install -r requirements.txt
 
-	2.	Place TensorFlow Lite Models
+2. Place TensorFlow Lite Models
 Ensure you place the TensorFlow Lite model files in the models/ directory:
 	•	detect.tflite
 	•	labelmap.txt
-	3.	Run the System
+3. Run the System
 Start the main script by running:
-
-python TFLite_detection_webcam.py
+   ```bash
+   python TFLite_detection_webcam.py
 
 This is ready to be added to your GitHub README. It ensures all steps are clear and allows users to easily copy commands.
 
