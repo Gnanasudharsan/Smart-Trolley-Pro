@@ -39,20 +39,20 @@ Software
 git clone https://github.com/Gnanasudharsan/Smart-Trolley-Pro
 
 
-	•	Install dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
 
-	•	Place TensorFlow Lite models in the models/ directory.
+Place TensorFlow Lite models in the models/ directory.
 
-	3.	Run the System:
-	•	Start the main script:
+Run the System:
+Start the main script:
 
 python TFLite_detection_webcam.py
 
 
-	•	Ensure the RFID module and Wi-Fi hotspot are configured.
+Ensure the RFID module and Wi-Fi hotspot are configured.
 
 📊 Results
 	•	Real-time Tracking: The trolley reliably follows customers within a defined RSSI range.
