@@ -50,9 +50,10 @@ Here’s the single markdown text:
 
 2. Place TensorFlow Lite Models
 Ensure you place the TensorFlow Lite model files in the models/ directory:
+	```bash
 	•	detect.tflite
-	•	labelmap.txt
-3. Run the System
+ 
+4. Run the System
 Start the main script by running:
    ```bash
    python TFLite_detection_webcam.py
