@@ -51,7 +51,7 @@ Here’s the single markdown text:
 2. Place TensorFlow Lite Models
 Ensure you place the TensorFlow Lite model files in the models/ directory:
 	```bash
-	•	detect.tflite
+	detect.tflite
  
 4. Run the System
 Start the main script by running:
