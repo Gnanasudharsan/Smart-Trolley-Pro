@@ -76,6 +76,7 @@ Alternatively, use the Kaggle API to download the dataset programmatically:
 ```bash
 kaggle datasets download -d tensorflow/ssd-mobilenet-v1
 
+
 📊 Results
 	•	Real-time Tracking: The trolley reliably follows customers within a defined RSSI range.
 	•	Instant Billing: RFID tags are read seamlessly, and the total is displayed via GUI.
